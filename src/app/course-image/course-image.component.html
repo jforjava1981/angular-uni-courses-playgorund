@@ -1,0 +1,7 @@
+  <img width="300" alt="Angular Logo"
+             [src]="src" *ngIf="src;  else noImageAvailable">
+  <ng-template #noImageAvailable>
+    <div>
+      No Image Available
+    </div> 
+  </ng-template>              
